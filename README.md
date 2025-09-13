@@ -10,7 +10,8 @@ It combines two approaches:
 BERT serves as the **primary recommendation engine**, with BoW acting as a **fallback mechanism**.  
 A **Streamlit web app** provides an interactive interface where users can select a movie and view the top 5 recommendations along with their posters (fetched via TMDB API).  
 
-## 📂 Project Structure  
+## 📂 Project Structure
+```
 Modified Movie Recommender System/
 │── Modified Movie Recommender System.ipynb # Jupyter Notebook (data preprocessing, BoW & BERT models)
 │── main.py # Streamlit frontend
@@ -21,6 +22,7 @@ Modified Movie Recommender System/
 │── similarity_bert.pkl # Cosine similarity (BERT)
 │── requirements.txt # Dependencies for deployment
 │── README.md # Project documentation
+```
 
 ## ⚙️ System Requirements  
 - **OS:** Windows, macOS, or Linux  
