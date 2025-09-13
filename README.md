@@ -31,16 +31,17 @@ Modified Movie Recommender System/
 ## 📦 Installation  
 
 1. **Clone the repository**  
-```bash
+```bash```
 git clone https://github.com/your-username/movie-recommender.git
 cd movie-recommender
 
 2. **⚙️Create Virtual Environment(Recommended)**
-```bash
+```bash```
 conda create -n recommender python=3.9
 conda activate recommender
 
 ## 📦 Install Dependencies
+```bash```
 pip install -r requirements.txt
 
 ## ▶️ Running the Project
@@ -56,6 +57,7 @@ Run all cells to:
 Make sure pickle files (`movies.pkl`, `similarity.pkl`, `similarity_bert.pkl`) are present.
 
 Run the app:
+```bash```
 streamlit run main.py
 
 Open browser at: http://localhost:8501
@@ -68,9 +70,11 @@ Create a new Web Service in Render.
 Configure:
 
 Build Command:
+```bash```
 pip install -r requirements.txt
 
 Start Command:
+```bash```
 streamlit run main.py --server.port $PORT --server.address 0.0.0.0
 
 Deploy and get a live URL to share your app.
